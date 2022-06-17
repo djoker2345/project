@@ -1,17 +1,19 @@
-"use sctrict";
+const numberOfFilms = +prompt ('How many films you see?' , '' );
 
-// alert('Hellow')
+const personalMovieDB = {
+    const: numberOfFilms,
+    movies: {},
+    actors: {},
+    ganers: [],
+    privet: false
+};
 
-// const result = confirm ("Are you here");
-// console.log(result);
+const a = prompt('Last see films' , ''),
+      b = prompt('How point you take?' , ''),
+      c = prompt('Last see films' , ''),
+      d = prompt('How point you take?' , '');
 
-// const answer = +prompt("Вам есть 18?", "18");
-// console.log(answer + 5);
+personalMovieDB.movies [a] = b;
+personalMovieDB.movies [c] = d; 
 
-const answers = [];
-
-answers [0] = prompt('Как ваше имя?', '');
-answers [1] = prompt('Как ваше фамилия?', '');
-answers [2] = prompt('Сколько вам лет?', '');
-
-document.write(answers);
+console.log(personalMovieDB);
